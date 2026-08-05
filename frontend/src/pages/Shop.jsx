@@ -89,10 +89,10 @@ const Shop = () => {
             <div key={product._id} className="group">
               <Link to={`/product/${product._id}`} className="block aspect-square bg-gray-50 border border-gray-200 mb-4 overflow-hidden flex items-center justify-center">
   <img
-    src={product.image}
-    alt={product.name}
-    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-  />
+  src={product.imageUrl}
+  alt={product.name}
+  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+/>
 </Link>
               <div className="flex items-start justify-between">
                 <div>
