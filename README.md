@@ -215,3 +215,9 @@ B.Tech Computer Engineering
 ## License
 
 This project is developed for educational and portfolio purposes.
+
+## 🌐 Live Demo
+
+🚀 **Frontend:** [TimeX Live Demo](https://timex-frontend-npuy.onrender.com)
+
+⚙️ **Backend API:** [TimeX Backend](https://timex-backend-dtwn.onrender.com)
