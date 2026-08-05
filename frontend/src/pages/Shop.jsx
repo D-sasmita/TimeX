@@ -21,7 +21,7 @@ const Shop = () => {
         setProducts(res.data);
         setError(null);
       } catch (err) {
-        setError("Couldn't load products. Check that your backend is running on port 5001.");
+        setError("Unable to load products. Please try again later.");
       } finally {
         setLoading(false);
       }
